@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setMod(true);
-    }, 40000);
+    }, 30000);
   }, []);
 
   return (
@@ -52,6 +52,7 @@ function App() {
         <TypeAnimation
           sequence={[
             "hi my cutie andy babygirl , im bodi , talking to u from far , you might be wondering how is that working but its okay , i made it for u and for us, i got that idea while i was looking at u while sleeping , u look so pretty and inspired me to make that for u , i think your beauty ate my eyes , u look incredibly gorgeous , and i love to spend time with you ,i love to see you , i love to look at you , i want u to know that u are awesome and everyday u get better , dont worry about ur college u do good , u will be better , u do good , everyday i will be here always to bother u and annoy u ,im here always , i will support u and do my best for uuuu , and bec u were reading all that here is a gift for u ",
+            '1000',
           ]}
           wrapper="span"
           speed={30}
